@@ -9,5 +9,16 @@
 </head>
 <body>
 	<?= $this->renderSection('content') ?>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<p>
+				<strong>CI Comentários</strong> por <a href="https://github.com/walissonaguirra">Walisson Aguirra</a>.
+				Projeto open source com licenca
+				<a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+			</p>
+		</div>
+	</footer>
 </body>
 </html>
