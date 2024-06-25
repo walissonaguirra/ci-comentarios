@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/comentarios', 'Comment::index');
+$routes->get('/entrar', 'Login::index');
